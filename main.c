@@ -8,29 +8,29 @@ int multi(int, int);
 int main(int argc, char* argv[])
 {
 	//추가함.
-	int a, b, c;
+	int aa, bb, cc;
 	char operator;
 	
 	printf("Please enter a expression");
-	scanf("%d %c %d", &a, &operator, &b);
+	scanf("%d %c %d", &aa, &operator, &bb);
 	
 	switch (operator)
 	{
 		case '+':
-			c = add(a, b);
+			cc = add(aa, bb);
 			break;
 		case '-':
-			c = sub(a, b);
+			cc = sub(aa, bb);
 			break;
 		case '*':
-			c = multi(a, b);
+			cc = multi(aa, bb);
 			break;
 		case '/':
-			c = div(a, b);
+			cc = div(aa, bb);
 			break;
 	}
 	
-	printf("result is %d.\n", c);
+	printf("result is %d.\n", cc);
 	
 	return 0;
 }
