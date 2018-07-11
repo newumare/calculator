@@ -7,6 +7,7 @@ int multi(int, int);
  
 int main(int argc, char* argv[])
 {
+	//추가함.
 	int a, b, c;
 	char operator;
 	
